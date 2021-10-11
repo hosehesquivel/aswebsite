@@ -190,7 +190,7 @@ form .submit:hover {
       grid-template-columns: repeat(1, auto);
   gap: 25px;
   width: 860px;
-  margin: 0 auto 60px;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -274,6 +274,75 @@ form .submit:hover {
     transform: scale(1);
     transition: all .2s;
 } */
+.frontpage-text {
+  -webkit-animation-name: myAnimation;
+          animation-name: myAnimation;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+  /*animation-direction: alternate;*/
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes myAnimation {
+  0% {
+    left: 200px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes myAnimation {
+  0% {
+    left: 200px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .frontpage-text {
+    -webkit-animation-name: myAnimation;
+            animation-name: myAnimation;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  @-webkit-keyframes myAnimation {
+    0% {
+      left: 0;
+      opacity: 1;
+    }
+    100% {
+      left: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes myAnimation {
+    0% {
+      left: 0;
+      opacity: 1;
+    }
+    100% {
+      left: 0;
+      opacity: 1;
+    }
+  }
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
