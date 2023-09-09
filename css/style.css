@@ -45,21 +45,21 @@
   margin-bottom: 15px;
 }
 
-/* .frontpage .frontpagemask {
+.frontpage .frontpagemask {
   -ms-grid-column: 2;
   grid-column: 2;
-  -webkit-mask-image: url(/images/logo-alto-shorter.svg);
+  /* -webkit-mask-image: url(/images/logo-alto-shorter.svg);
   -webkit-mask-size: 500px;
   -webkit-mask-repeat: no-repeat;
   mask-image: url(/images/logo-alto-shorter.svg);
   -webkit-mask-size: 400px;
           mask-size: 400px;
-  mask-repeat: no-repeat;
+  mask-repeat: no-repeat; */
   width: 400px;
   height: 500px;
   margin: auto;
   overflow: hidden;
-} */
+}
 
 .frontpage .frontpagemask img {
   width: 500px;
