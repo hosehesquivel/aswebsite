@@ -2,9 +2,23 @@
 *, *::after, *::before {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   list-style: none;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  color-scheme: dark light;
 }
 
 .frontpage {
@@ -75,7 +89,6 @@
 }
 
 .frontpage .frontpagemask img {
-  height:inherit;
   align-self: center;
   justify-self: center;
 }
