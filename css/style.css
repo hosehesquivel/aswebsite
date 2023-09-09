@@ -413,7 +413,7 @@ nav {
 }
 
 nav .logo {
-  background-image: url(images/logo-alto-shorter-name.svg);
+  background-image: url(/images/logo-alto-shorter-name.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: right;
