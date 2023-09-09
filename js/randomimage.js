@@ -1,9 +1,9 @@
 window.onload = randomImage;
 
 var myImg = new Array(
-    "../images/heroimage01.png",
-    "../images/heroimage02.png",
-    "../images/heroimage03.png"
+    "./images/heroimage01.png",
+    "./images/heroimage02.png",
+    "./images/heroimage03.png"
 )
 
 function randomImage() {
