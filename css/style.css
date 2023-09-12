@@ -31,7 +31,7 @@ html {
       grid-template-columns: repeat(2, 1fr);
   width: 700px;
   height: 500px;
-  margin: 200px auto;
+  margin: 150px auto 0;
   border-radius: 5%;
   overflow: hidden;
 }
@@ -98,6 +98,7 @@ html {
   grid-row: 3;
   width: 1200px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .frontpage-work .work {
@@ -106,7 +107,7 @@ html {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 800px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -117,13 +118,13 @@ html {
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   position: relative;
-  width: 350px;
+  width: 300px;
   height: 400px;
   padding: 15px;
 }
 
 .frontpage-work .work .work-container .work-container-logo {
-  width: 300px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -255,10 +256,6 @@ form .submit:hover {
   text-transform: uppercase;
 }
 
-/* .portfolio-container:hover img {
-    transform: scale(1);
-    transition: all .2s;
-} */
 .portfolio-container:hover .portfolio-link {
   -webkit-transform: translateY(-70px);
           transform: translateY(-70px);
@@ -504,6 +501,7 @@ a.calltoaction:hover {
 }
 
 .footer .footer-content {
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: grid;
