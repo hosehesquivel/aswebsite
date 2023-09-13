@@ -335,6 +335,7 @@ form .submit:hover {
 
 #topbtn:hover {
   background-color: #ffb515;
+  color: black;
 }
 
 @-webkit-keyframes myAnimation {
