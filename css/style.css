@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
-/* @import url(stylemobile.css); */
-
+@import url("mobile.css");
 
 
 /* ROOT */
@@ -144,6 +142,7 @@ nav .logo {
 
 .frontpagetext p {
   width: 100%;
+  margin-bottom: 5px;
   padding: 0 25px;
   color: var(--textcolor);
 }
@@ -496,3 +495,6 @@ a.calltoaction:hover {
 .footer ul li a {
   color: #071E3D;
 }
+
+
+
