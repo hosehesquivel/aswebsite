@@ -26,6 +26,7 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylemobile.css">
 </head>
 <body>
 
@@ -34,7 +35,13 @@
         <nav>
             <!-- <input type="checkbox" id="check"> -->
             <div class="logo"><img src="images/logo-alto-shorter-name.svg"></div>
-            <ul>
+            
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container menubtntop' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            
+            <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="work.html">Work</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -49,33 +56,38 @@
             <div class="work-container">
                 <div class="work-container-logo"><img src="images/work/logo-ShaoLucha.png"></div>
                 <p>Shao-Lucha is the story of Javier, a shaolin monk that enters the weird, weird world of professional wrestling.</p>
-                <div class="work-container-calltoaction"><a href="" class="calltoaction">Read the Comic!</a></div>
+                <div class="work-container-calltoaction workaction"><a href="" class="calltoaction">Read the Comic!</a></div>
             </div>
 
             <div class="work-container">
                 <div class="work-container-logo"><img src="images/work/logo-BarkCityBrawl.png"></div>
                 <p>Bark City Brawl is a 2-4 player First Person Brawler. May the best canine win!</p>
-                <div class="work-container-calltoaction"><a href="https://raindelay.itch.io/barkcitybrawl" class="calltoaction">Play the Game!</a></div>
+                <div class="work-container-calltoaction workaction"><a href="https://raindelay.itch.io/barkcitybrawl" class="calltoaction">Play the Game!</a></div>
             </div>
 
             <div class="work-container">
                 <div class="work-container-logo"><img src="images/work/bigfoot.png"></div>
                 <p>BIGFOOT: Roll & Smash is a four player board game from XYZ Games Labs based on the real life monster truck.</p>
-                <div class="work-container-calltoaction"><a href="https://bigfootrollsmash.com/" class="calltoaction">Play the Game!</a></div>
+                <div class="work-container-calltoaction workaction"><a href="https://bigfootrollsmash.com/" class="calltoaction">Play the Game!</a></div>
             </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container menubtnbottom' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            
+            <div class="footer-content">
+                <ul>
+                    @hosehesquivel
+                </ul>
             </div>
         </div>
     </main>
 
     <button onclick="backtotop()" id="topbtn" title="Go to top">Back to Top</button>
-
-    <div class="footer">
-        <div class="footer-content">
-            <ul>
-            @hosehesquivel
-            </ul>
-        </div>
-    </div>
 
         <!-- <label for="check" class="checkbtn">
             <i class="fa fa-bars"></i>
