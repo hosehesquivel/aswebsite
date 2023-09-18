@@ -27,15 +27,15 @@ html, body {
 }
 
 /* Tablet */
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px){
     
     .content {
         width: 100%;
-        height: 100%;
+        height: 600px;
     }
 
     #topbtn {
-        display: none;
+        display: flex;
     }
 
     #topbtn:after {
@@ -125,7 +125,7 @@ html, body {
     .frontpage {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
-        height: 750px;
+        height: 3rem;
         margin: 0 auto;
     }
 
