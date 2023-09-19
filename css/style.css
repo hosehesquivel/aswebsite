@@ -500,7 +500,7 @@ a.calltoaction:hover {
 
 /* MOBILE RESPONSIVENESS */
 /* IPHONE 12/13 MAX*/
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 428px) {
   
   .content {
     min-width: 100%;
