@@ -634,6 +634,7 @@ a.calltoaction:hover {
   .portfolio-link {
     bottom: 0;
     height: 50px;
+    transition: none;
   }
 
 
