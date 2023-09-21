@@ -637,6 +637,10 @@ a.calltoaction:hover {
     transition: none;
   }
 
+  .portfolio-container:hover .portfolio-link {
+    transform: translateY(0);
+  }
+
 
 
   /* GALLERY */
