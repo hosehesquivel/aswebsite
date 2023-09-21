@@ -157,7 +157,7 @@ nav .logo {
 
 .frontpagemask {
   grid-column: 2;
-  height: 500px;
+  height: 100%;
   margin: auto 0;
   overflow: hidden;
   background-color: var(--yellow);
